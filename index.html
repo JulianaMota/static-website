@@ -14,13 +14,14 @@
 <body class="wrapper">
     <header>
         <nav class="burger-menu">
-
-            <ul class="burger-links">
-                <li><a href="index.html" class="current">Home</a></li>
-                <li><a href="">Menu</a></li>
-                <li><a href="">Contacts</a></li>
-            </ul>
-           
+            <div id="menu-toggle">
+                <input type="checkbox" /><span></span> <span></span> <span></span>
+                <ul class="burger-links">
+                    <li><a href="index.html" class="current">Home</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </div>
         </nav>
         <div class="logo">
             <img src="./images/large/logo.svg" alt="logo">
@@ -41,7 +42,8 @@
             </div>
             <div class="dishes">
                 <img class="discount20 img-dishes" alt="boef" src="./images/large/boef.jpg">
-                <h2 class="discount20">Stake with vegetables</h2>
+                <div class="discount20"></div>
+                <h2>Stake with vegetables</h2>
                 <p>Diplomat-bøf med grønt</p>
                 <img class="stars" alt="stars" src="./images/large/star2-hand-drawn-symbol-outline.svg">
                 <p class="price"> 179kr</p>
@@ -63,6 +65,16 @@
                 <p><span class="bold">Alcohol : </span>14% vol.</p>
                 <img class="stars" alt="stars" src="./images/large/star4-hand-drawn-symbol-outline-01.svg">
                 <p class="price"> 39kr</p>
+                <button>Details</button>
+            </div>
+            <div class="dishes">
+                <img class="img-dishes img-soldout" alt="kaalsuppe" src="./images/large/ringbroed.jpg">
+                <div class="soldout">SOLD OUT</div>
+                <h2 class="vegetarian">Russian Ringbread</h2>
+                <p>Russisk ringbrød bagt med det fineste gryzni-mel fra Gryzkigistan</p>
+                <p><span class="bold">Contains : </span>laktose.</p>
+                <img class="stars" alt="stars" src="./images/large/star2-hand-drawn-symbol-outline.svg">
+                <p class="price"> 29kr</p>
                 <button>Details</button>
             </div>
         </div>
